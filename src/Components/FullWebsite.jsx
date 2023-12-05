@@ -10,7 +10,7 @@ function FullWebsite(){
                 <ButtonOrange direction="/menu" message="Today's Menu" />
             </div>
             <div className="marcoMetrico__logoPage">
-                <img src="https://siempreauto.com/wp-content/uploads/sites/9/2020/11/Bugatti-Chiron.jpg?quality=80&strip=all" alt='img' />
+                <img src="https://mibucketcl2023.s3.amazonaws.com/images/home.png" alt='img' />
             </div>
         </div>
     )

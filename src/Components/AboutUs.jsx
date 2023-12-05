@@ -5,7 +5,7 @@ function AboutUs(){
     return(
         <div className="marcoMetrico">
             <div className="marcoMetrico__logoPage">
-                <img src="https://siempreauto.com/wp-content/uploads/sites/9/2020/11/Bugatti-Chiron.jpg?quality=80&strip=all" alt="about.img" />
+                <img src="https://mibucketcl2023.s3.amazonaws.com/images/about.png" alt="about.img" />
             </div>
             <div className="marcoMetrico__info">
                 <p className="marcoMetrico__info__smallTitle">About Us</p>

@@ -9,21 +9,21 @@ function FoodMenu(){
             </div>
             <div className="selectMetrica__cards">
                 <div className="selectMetrica__cards__data">
-                    <img src="https://siempreauto.com/wp-content/uploads/sites/9/2020/11/Bugatti-Chiron.jpg?quality=80&strip=all" alt="img" />
+                    <img src="https://mibucketcl2023.s3.amazonaws.com/images/food1.png" alt="img" />
                     <p className="selectMetrica__cards__data__title">Chicken Burger</p>
                     <p className="selectMetrica__cards__data__parrafo">Tasty Food</p>
                     <p className="selectMetrica__cards__data__price">$11.00</p>
                 </div>
 
                 <div className="selectMetrica__cards__data">
-                    <img src="https://siempreauto.com/wp-content/uploads/sites/9/2020/11/Bugatti-Chiron.jpg?quality=80&strip=all" alt="img" />
+                    <img src="https://mibucketcl2023.s3.amazonaws.com/images/food2.png" alt="img" />
                     <p className="selectMetrica__cards__data__title">Special Beef Burger</p>
                     <p className="selectMetrica__cards__data__parrafo">Tasty Food</p>
                     <p className="selectMetrica__cards__data__price">$11.00</p>
                 </div>
 
                 <div className="selectMetrica__cards__data">
-                    <img src="https://siempreauto.com/wp-content/uploads/sites/9/2020/11/Bugatti-Chiron.jpg?quality=80&strip=all" alt="img" />
+                    <img src="hthttps://mibucketcl2023.s3.amazonaws.com/images/food3.png" alt="img" />
                     <p className="selectMetrica__cards__data__title">Chicken Fry Pack</p>
                     <p className="selectMetrica__cards__data__parrafo">Tasty Food</p>
                     <p className="selectMetrica__cards__data__price">$11.00</p>
