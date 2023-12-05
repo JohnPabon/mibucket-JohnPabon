@@ -5,14 +5,14 @@ function Navbar(){
     return(
         <div className='navbar'>
             <div className='navbar__info'>
-                <h2>Foods</h2>
+                <p>Foods</p>
             </div>
             <div className='navbar__links'>
                 <Link to='/'>Home</Link>
                 <Link to='/about'>About</Link>
                 <Link to='/menu'>Menu</Link>
                 <Link to='/service'>Service</Link>
-                <Link to='/contact'>Contact</Link>
+                <Link to='/'>Contact</Link>
             </div>
         </div>
     )

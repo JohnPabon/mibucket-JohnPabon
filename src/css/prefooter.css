@@ -1,0 +1,26 @@
+.prefooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.prefooter__fondo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 90%;
+  height: 26rem;
+  background-color: #ffefe8;
+  border: solid 5px #5f5a62;
+  padding: 1rem;
+}
+.prefooter__fondo__info {
+  font-size: 4rem;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+/*# sourceMappingURL=prefooter.css.map */

@@ -1,9 +1,9 @@
-import Navbar from "./subcomponents/Navbar";
+import FullWebsite from './FullWebsite';
 
 function Home(){
     return(
         <div>
-            <Navbar />
+            <FullWebsite />
         </div>
     )
 };

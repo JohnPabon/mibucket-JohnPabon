@@ -1,16 +1,16 @@
-
-import { Link } from 'react-router-dom';
+import './../css/marcoMetrico.css';
+import ButtonOrange from './subcomponents/ButtonOrange'
 
 function FullWebsite(){
     return(
-        <div>
-            <div>
-                <h2>Full Website</h2>
-                <p>Foods the Most precius thing</p>
-                <Link to="/menu">Today's Menu</Link>
+        <div className="marcoMetrico">
+            <div className="marcoMetrico__info">
+                <p className="marcoMetrico__info__title">Full Website</p>
+                <p className="marcoMetrico__info__parrafo">Foods the <br /> Most precius thing</p>
+                <ButtonOrange direction="/menu" message="Today's Menu" />
             </div>
-            <div>
-                <img src="" alt='img' />
+            <div className="marcoMetrico__logoPage">
+                <img src="https://siempreauto.com/wp-content/uploads/sites/9/2020/11/Bugatti-Chiron.jpg?quality=80&strip=all" alt='img' />
             </div>
         </div>
     )

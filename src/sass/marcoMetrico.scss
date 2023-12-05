@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+$font: 'Poppins', sans-serif;
+
+@mixin flex($direction, $wrap, $justify, $align){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    flex-wrap: $wrap;
+    align-items: $align;
+};
+
+.marcoMetrico{
+    @include flex(row, wrap, center,center);
+    gap:5.5rem;
+    width:100%;
+    margin-top:9rem;
+
+    &__info{
+        
+        &__title{
+            color:#ff702a;
+            font-size:7.5rem;
+            font-family: 'Roboto Mono', monospace;
+            font-weight:400;
+        }
+        &__smallTitle{
+            color:#ff702a;
+            font-size:2.5rem;
+            font-family: 'Roboto Mono', monospace;
+            font-weight:400;
+        }
+
+        &__parrafo{
+            color:rgb(255, 255, 255);
+            font-family:$font;
+            font-weight:500;
+            font-size:3rem;
+            margin-top:-7rem;        
+        }
+
+        &__parrafoBig{
+            color:rgb(255, 255, 255);
+            font-family:$font;
+            font-weight:500;
+            font-size:4rem;  
+            margin-top:-2rem;        
+        }
+
+        &__parrafoSmall{
+            color:rgb(255, 255, 255);
+            font-family:$font;
+            font-weight:500;
+            font-size:2.3rem;  
+            margin-top:-3.5rem;        
+
+        }
+    };
+
+    &__logoPage{
+        img{
+            width:62rem;
+        }
+    }
+}

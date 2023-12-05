@@ -1,0 +1,28 @@
+
+
+@mixin flex($direction, $wrap, $justify, $align){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    flex-wrap: $wrap;
+    align-items: $align;
+};
+
+$font: 'Poppins', sans-serif;
+
+.prefooter{
+    @include flex(column, nowrap, center, center);
+    &__fondo{
+        @include flex(column, nowrap, center, center);
+        width:90%;
+        height:26rem;
+        background-color: #ffefe8;
+        border:solid 5px #5f5a62;
+        padding:1rem;
+        &__info{
+            font-size:4rem;
+            font-family:$font;
+            text-align:center;
+        }
+    }
+}

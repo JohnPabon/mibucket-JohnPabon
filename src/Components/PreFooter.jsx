@@ -1,10 +1,14 @@
-import ButtonLearnMore from './subcomponents/ButtonLearnMore';
+import './../css/prefooter.css';
+import ButtonOrange from './subcomponents/ButtonOrange';
 
 function PreFooter(){
     return(
         <div className="prefooter">
-            <h2>We Make quality food <hr /> Everyday</h2>
-            <ButtonLearnMore />
+            <div className="prefooter__fondo">
+            
+                <p className="prefooter__fondo__info">We Make quality food <br /> Everyday</p>
+                <ButtonOrange direction="/menu" message="Learn More" />
+            </div>
         </div>
     )
 };
